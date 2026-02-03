@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/* link color */
+a {
+  color: blue;
+}
+
+/* hover pseudoclass */
+a:hover {
+  color: red;
+}
+
+/* class selectors */
+.box {
+  padding: 10px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+/* id selector */
+#special-box {
+  background-color: lightgray;
+}
+
+/* media query */
+@media (max-width: 600px) {
+  body {
+    background-color: #f0f0f0;
+  }
+}
+#navbar {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #eee;
+}
+.container {
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
