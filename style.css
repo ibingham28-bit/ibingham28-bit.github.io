@@ -48,3 +48,21 @@ a:hover {
   margin: 0 auto;
   padding: 20px;
 }
+<img src="images/img1.jpg" alt="Description" class="page-image">
+<img src="images/img2.jpg" alt="Description" class="page-image">
+<img src="images/img3.jpg" alt="Description" class="page-image">
+.page-image {
+  max-width: 100%;
+  height: auto;
+}
+.page-image {
+  max-width: 400px;
+  height: auto;
+  display: block;
+}
+.page-image {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
