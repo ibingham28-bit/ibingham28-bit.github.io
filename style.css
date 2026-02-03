@@ -46,10 +46,20 @@ a:hover {
   margin: 0 auto;
   padding: 20px;
 }
-.page-image {
+img {
   width: 100%;
   height: auto;
   max-width: 250px;
+}
+.page-image {
   display: block;
   margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
 }
